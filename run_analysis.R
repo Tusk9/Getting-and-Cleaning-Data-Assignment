@@ -94,7 +94,7 @@ Merged_Data <- cbind(Subject, Y, X)
     
     summarise_all(funs(mean))
     
-write.table(FinalData, "FinalData.txt", row.name=FALSE)
+   write.table(FinalData, "FinalData.txt", row.name=FALSE)
 
 
 # Final Stage Check
